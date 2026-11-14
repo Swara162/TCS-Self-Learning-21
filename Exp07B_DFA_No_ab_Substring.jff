@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure><type>fa</type><automaton>
+<state id="0" name="S0"><x>100</x><y>160</y><initial/><final/></state>
+<state id="1" name="S1"><x>290</x><y>80</y><final/></state>
+<state id="2" name="Dead"><x>470</x><y>200</y></state>
+<transition><from>0</from><to>0</to><read>b</read></transition>
+<transition><from>0</from><to>1</to><read>a</read></transition>
+<transition><from>1</from><to>1</to><read>a</read></transition>
+<transition><from>1</from><to>2</to><read>b</read></transition>
+<transition><from>2</from><to>2</to><read>a</read></transition>
+<transition><from>2</from><to>2</to><read>b</read></transition>
+</automaton></structure>
