@@ -1,0 +1,2 @@
+Enter this expression in JFLAP's Regular Expression module: (a+b)*ab
+It accepts all strings over {a,b} that end with ab.

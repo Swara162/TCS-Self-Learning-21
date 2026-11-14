@@ -1,0 +1,8 @@
+Experiment 7: Combining Automata
+Open Exp07A and Exp07B in separate JFLAP windows.
+Use Convert > Combine Automata (if available in your JFLAP version).
+The sample demonstrates intersection using complements and union.
+These two source DFAs recognize:
+  A: strings with an odd number of a's
+  B: strings with no "ab" substring
+The product-state construction can also be used to form their intersection.

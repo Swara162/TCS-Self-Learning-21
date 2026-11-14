@@ -1,0 +1,2 @@
+Language: strings over {a,b} ending in ab
+Equivalent regular expression: (a+b)*ab

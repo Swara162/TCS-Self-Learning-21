@@ -1,0 +1,18 @@
+Experiment 10: Moore machine from the sample (binary input/output example)
+
+States and state outputs:
+  q0 (initial), output 0
+  q1, output 0
+  q2, output 1
+
+Transitions:
+  q0 --0--> q0
+  q0 --1--> q1
+  q1 --0--> q0
+  q1 --1--> q2
+  q2 --0--> q0
+  q2 --1--> q2
+
+Build it using JFLAP's Moore Machine option and assign the output to each state.
+The exact .jff XML format for transducers differs from ordinary finite automata,
+so this reference is provided instead of a potentially invalid automaton file.

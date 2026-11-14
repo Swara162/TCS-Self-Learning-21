@@ -1,0 +1,14 @@
+JFLAP Grammar (right-linear), based on the sample's DFA for strings ending in "ab"
+
+Start variable: A
+Productions:
+A -> aB
+A -> bA
+B -> aB
+B -> bC
+C -> aB
+C -> bA
+C -> λ
+
+In JFLAP, choose Grammar and enter these productions. The DFA source is provided
+separately as Exp05_DFA_to_Regular_Grammar_Source.jff.
